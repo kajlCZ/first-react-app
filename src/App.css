@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.menu-button {
+  background-color: white;
+  color: black;
+  border: px solid #555555;
+  border-radius: 8px;
+}
+
+.menu-button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.menu {
+  flex: 30%;
+  align-items: center;
+  display: flex;
+}
+
+.con-buttons {
+  flex: 60%;
+}
+
+.slash {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.card-node {
+  background-color: #b89fe0;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.btn-del {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  color: black;
+  border: px solid #555555;
+  border-radius: 8px;
+  
+}
+
+
+.contrOfCard {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+}
+
+.nodeList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.contr {
+  background-color: #4c1d95;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.createNewNode,
+.delAllNodes,
+.save {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.createNewNode,
+.delAllNodes,
+.save {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 10px;
+}
+
+.createNewNode:hover,
+.delAllNodes:hover,
+.save:hover {
+  background-color: #555555;
+  color: white;
+}
